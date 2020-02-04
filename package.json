@@ -1,0 +1,11 @@
+{
+  "name": "comver",
+  "version": "1.0.0",
+  "description": "バージョンを比較するためのコードです。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "aocm <aocm.dev@gmail.com>",
+  "license": "MIT"
+}
