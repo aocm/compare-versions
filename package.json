@@ -4,8 +4,14 @@
   "description": "バージョンを比較するためのコードです。",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index",
+    "test": "NODE_ENV=test jest"
   },
   "author": "aocm <aocm.dev@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel-jest": "^25.1.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "jest": "^25.1.0"
+  }
 }
